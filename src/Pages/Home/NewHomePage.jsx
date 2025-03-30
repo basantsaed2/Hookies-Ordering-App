@@ -20,13 +20,13 @@ const NewHomePage=()=>{
 
             <div className={`w-full md:w-1/2 h-full flex flex-col gap-3 p-2 md:p-4 items-center justify-center`}>
                 <div className="flex gap-5">
-                    <Link to="/hookies_menu" className="bg-[#9E090F1A] flex flex-col gap-3  items-center justify-center rounded-xl p-2 md:p-6">
+                    <Link to="/hookies_menu" className="bg-white flex flex-col gap-3  items-center justify-center rounded-xl p-2 md:p-6">
                         <MenuIcon/>
-                        <h1 className="text-2xl text-mainColor">Menu</h1>
+                        <h1 className="text-2xl text-[#000000]">Menu</h1>
                     </Link>
-                    <Link to="#" className="opacity-50 cursor-not-allowed bg-[#9E090F1A] flex flex-col gap-3  items-center justify-center rounded-xl p-2 md:p-6">
+                    <Link to="#" className="opacity-50 cursor-not-allowed bg-white flex flex-col gap-3  items-center justify-center rounded-xl p-2 md:p-6">
                         <DashIcon/>
-                        <h1 className="text-2xl text-mainColor">Order Now</h1>
+                        <h1 className="text-2xl text-[#000000]">Order Now</h1>
                     </Link>      
                 </div>
 

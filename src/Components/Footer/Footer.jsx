@@ -14,7 +14,7 @@ const Footer = () => {
       {/* Logo Section */}
       <div className="flex items-center gap-x-3 mb-6">
       <img src={HookiesLogo} width={50} height={50} alt="Logo" />
-      <span className="text-3xl font-semibold">Hookies</span>
+      <span className="text-3xl text-white font-semibold">Hookies</span>
       </div>
 
       {/* Footer Grid */}
@@ -23,32 +23,32 @@ const Footer = () => {
         <div className="content">
           <h2 className="text-white font-bold text-lg mb-4">Connect With Us</h2>
           <ul className="space-y-4">
-            <li className="flex items-center space-x-2">
-                <FaPhoneAlt className="text-3xl text-mainColor bg-white rounded-full p-2"  />
+            <li className="flex items-center space-x-2 text-white">
+                <FaPhoneAlt className="text-3xl bg-white text-[#000000] rounded-full p-2"  />
                  <span>Phone: 01500468839</span>
                </li>
-               <li className="flex items-center space-x-2">
-                <FaPhoneAlt className="text-3xl text-mainColor bg-white rounded-full p-2"  />
+               <li className="flex items-center space-x-2 text-white">
+                <FaPhoneAlt className="text-3xl bg-white text-[#000000] rounded-full p-2"  />
                  <span>Phone: 034290601</span>
                </li>
-               <li className="flex items-center space-x-2">
-                 <FaWhatsapp className="text-3xl text-mainColor bg-white rounded-full p-2"  />
+               <li className="flex items-center space-x-2 text-white">
+                 <FaWhatsapp className="text-3xl bg-white text-[#000000] rounded-full p-2"  />
                  <span>WhatsApp: +201500468839</span>
               </li>
           </ul>
           {/* Social Media Links */}
-          <div className="flex space-x-4 mt-4">
+          <div className="flex space-x-4 mt-4 ">
             <Link
               to="https://www.facebook.com/share/1FFfMozNTD/"
               target="_blank"
-              className="p-3 bg-white text-mainColor rounded-full hover:bg-gray-300 transition duration-300"
+              className="p-3 bg-white text-[#000000] rounded-full hover:bg-gray-300 transition duration-300"
             >
               <FaFacebookF className="text-xl" />
             </Link>
             <Link
               to="https://www.instagram.com/hookies.egypt"
               target="_blank"
-              className="p-3 bg-white text-mainColor rounded-full hover:bg-gray-300 transition duration-300"
+              className="p-3 bg-white text-[#000000] rounded-full hover:bg-gray-300 transition duration-300"
             >
               <FaInstagram className="text-xl" />
             </Link>
@@ -57,7 +57,7 @@ const Footer = () => {
 
         {/* Quick Links Section */}
         <div className="content">
-          <h2 className="text-white font-bold text-lg mb-4">Pages</h2>
+          <h2 className="text-white font-bold text-lg mb-4 ">Pages</h2>
         <ul className="gap-4 mt-4 flex flex-row md:flex-col">
         {["Home", "Menu", "Contact Us"].map((page, index) => (  
           <li key={index}>
@@ -79,11 +79,11 @@ const Footer = () => {
         <div className="content">
           <h2 className="text-white font-bold text-lg mb-4">Download Our App</h2>
           <div className="space-y-3">
-          <Link className="opacity-50 cursor-not-allowed flex items-center border border-white rounded-lg px-4 py-2 space-x-4 hover:bg-white hover:text-mainColor transition duration-300">
+          <Link className="opacity-50 cursor-not-allowed flex items-center text-white border border-white rounded-lg px-4 py-2 space-x-4 hover:bg-white hover:text-[#000000] transition duration-300">
           <FaApple className="text-2xl" />
               <span className="text-sm">App Store</span>
             </Link>
-            <Link className="opacity-50 cursor-not-allowed flex items-center border border-white rounded-lg px-4 py-2 space-x-4 hover:bg-white hover:text-mainColor transition duration-300">
+            <Link className="opacity-50 cursor-not-allowed flex items-center  text-white border border-white rounded-lg px-4 py-2 space-x-4 hover:bg-white hover:text-[#000000] transition duration-300">
               <FaGooglePlay className="text-2xl" />
               <span className="text-sm">Google Play</span>
             </Link>
@@ -92,7 +92,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <Link to="https://food2go.online/" target="_blank" className="flex items-center justify-center gap-2 text-sm mt-2 border-t border-white pt-4">
+      <Link to="https://food2go.online/" target="_blank" className="flex items-center justify-center gap-2 text-sm mt-2 border-t border-white pt-4 text-white">
         <p>©2025 . All rights reserved</p>
         <h1 className="text-white font-semibold text-lg">Hookies</h1>
         </Link>

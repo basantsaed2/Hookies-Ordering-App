@@ -23,7 +23,7 @@ const Navbar = () => {
                                    <div className='sm:w-6/12 xl:w-3/12 flex items-center justify-start gap-x-2 z-10'>
                                           <Link to={'/'} className="flex items-center justify-start gap-x-2">
                                                  <img src={HookiesLogo} width={50} height={50} alt="Logo" />
-                                                 <span className='text-3xl text-mainColor font-TextFontRegular'>Hookies</span>
+                                                 <span className='text-3xl text-[#000000] font-TextFontRegular'>Hookies</span>
                                           </Link>
                                    </div>
                                    <div className='sm:hidden xl:flex w-5/12 items-center'>
@@ -34,13 +34,13 @@ const Navbar = () => {
                                           {user ? (
                                                  <>
                                                         <Link to={'/favorites'}>
-                                                               <MdFavoriteBorder className='text-mainColor text-3xl' />
+                                                               <MdFavoriteBorder className='text-[#000000] text-3xl' />
                                                         </Link>
                                                         <Link to={'/cart'}>
                                                                <CartIcon />
                                                         </Link>
                                                         <Link to={'/profile'}>
-                                                               <LuUserRound className='text-mainColor text-3xl' />
+                                                               <LuUserRound className='text-[#000000] text-3xl' />
                                                         </Link>
                                                  </>
                                           ) : (
@@ -48,13 +48,13 @@ const Navbar = () => {
 
                                                         <Link
                                                                to={'/auth/login'}
-                                                               className='text-xl text-mainColor border-2 border-mainColor font-TextFontRegular px-5 py-1 rounded-full'
+                                                               className='text-xl text-[#000000] border-2 border-[#000000] font-TextFontRegular px-5 py-1 rounded-full'
                                                         >
                                                                Login
                                                         </Link>
                                                         <Link
                                                                to={'/auth/sign_up'}
-                                                               className='text-xl text-white bg-mainColor border-2 border-mainColor font-TextFontRegular px-5 py-1 rounded-full'
+                                                               className='text-xl text-white bg-[#000000] border-2 border-[#000000] font-TextFontRegular px-5 py-1 rounded-full'
                                                         >
                                                                SignUp
                                                         </Link>
